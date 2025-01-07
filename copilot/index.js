@@ -10,10 +10,10 @@ require('dotenv').config();
 
 // Vonage and Flowise configuration
 const VONAGE_MESSAGES_API_URL = "https://api.nexmo.com/v1/messages";
-const VONAGE_APPLICATION_ID = "40644e33-8740-4cb0-bb17-410f414c5e1a";
-const FLOWISE_API_URL = "http://4.156.31.14:3000/api/v1/prediction/97c042a7-6007-4885-9eb4-806f8ab8a267";
+const VONAGE_APPLICATION_ID = "4a";
+const FLOWISE_API_URL = "https://flowise-api.herokuapp.com/api/v1/query";
 const VONAGE_SANDBOX_NUMBER = "254769123018";  // Replace with your Vonage number
-const FEEDBACK_FORM_URL = "https://forms.office.com/r/N9j8TFyN0g";
+const FEEDBACK_FORM_URL = "https://forms.office";
 
 // Path to private key file
 const PRIVATE_KEY_FILE_PATH = './copilot/private.pem';
